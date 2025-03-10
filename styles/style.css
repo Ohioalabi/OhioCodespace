@@ -1,0 +1,24 @@
+.hi {
+  color: black
+}
+.hi b {
+  color: midnightblue;
+  font-size: 2rem
+}
+
+.ctBox {
+  border: 2px dashed #777;
+  border-radius: 15px
+}
+
+#ftEm {
+  color: maroon;
+  font-size: 2rem
+}
+#ftWA {
+  color: green;
+  font-size: 2rem
+}
+.fb {
+  border-left: 1px solid
+}
