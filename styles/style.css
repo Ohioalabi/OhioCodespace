@@ -65,7 +65,7 @@ main {
   margin-top: 30px
 }
 .brImg {
-  background: rgba(125, 125, 125, 1) url("/storage/emulated/0/Web coding/Ohio Codespace/asset/DCIM/brLgII.jpeg") no-repeat center;
+  background: rgba(125, 125, 125, 1) url("https://ohiocodespace.netlify.app/asset/DCIM/brLgII.jpeg") no-repeat center;
   height: 450px;
   margin-bottom: 20px;
   border-radius: 100px 20px 50px 20px;
@@ -91,16 +91,16 @@ main {
 }
 
 .serSec .ser:nth-child(1) {
-  background: rgba(0, 0, 0, 0.5) url("/storage/emulated/0/Web coding/Ohio Codespace/asset/DCIM/brLgI.jpeg") no-repeat center;
+  background: rgba(0, 0, 0, 0.5) url("https://ohiocodespace.netlify.app/asset/DCIM/brLgI.jpeg") no-repeat center;
 }
 .serSec .ser:nth-child(2) {
-  background: rgba(0, 0, 0, 0.5) url("/storage/emulated/0/Web coding/Ohio Codespace/asset/DCIM/boost.jpeg") no-repeat center;
+  background: rgba(0, 0, 0, 0.5) url("https://ohiocodespace.netlify.app/asset/DCIM/boost.jpeg") no-repeat center;
 }
 .serSec .ser:nth-child(3) {
-  background: rgba(0, 0, 0, 0.5) url("/storage/emulated/0/Web coding/Ohio Codespace/asset/DCIM/report.jpeg") no-repeat center;
+  background: rgba(0, 0, 0, 0.5) url("https://ohiocodespace.netlify.app/asset/DCIM/report.jpeg") no-repeat center;
 }
 .serSec .ser:nth-child(4) {
-  background: rgba(0, 0, 0, 0.5) url("/storage/emulated/0/Web coding/Ohio Codespace/asset/DCIM/feedback.jpg") no-repeat center;
+  background: rgba(0, 0, 0, 0.5) url("https://ohiocodespace.netlify.app/asset/DCIM/feedback.jpg") no-repeat center;
 }
 
 .ser button {
@@ -121,33 +121,24 @@ main {
   font-optical-sizing: auto;
 }
 .ser button:hover {
-  scale: 1.05;
+  scale: 1.03;
   transition: 0.7s ease-in-out;
-  color: cadetblue !important;
 }
-
 
 .ser {
   position: relative;
-  
-  display: flex;
   justify-content: center;
-  
   height: 200px;
   border-radius: 50px;
   margin-bottom: 1rem;
-  align-items: center;
   align-items: center;
   display: flex;
   background-blend-mode: multiply;
 }
 
 .ser button {
-  border: none;
   padding: 10px 20px;
   cursor: pointer;
-  
-  
   display: flex;
   flex-direction: column;
   padding: 20px 40px;
@@ -181,9 +172,6 @@ main {
 .ser:hover .ser button i {
   opacity: 0;
 }
-
-
-
 
 
 
