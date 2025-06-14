@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+		  <meta http-equiv="X-UA-Compatible" -content="IE=edge">
     <meta name="description" content="Specialized in programming/creating websites with HTML, CSS, and JS + various frameworks">
-    <meta name="author" content="Ohio">
+    <meta name="author" content="Ohio Codespace">
+				<meta name="mobile-web-app-capable" content="yes">
+				<meta name="apple-mobile-web-app-capable" content="yes">
+				<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
     <title>Ohio Codespace</title>
 		
 	  	<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
@@ -15,71 +19,133 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/2.0.3/motion-ui.min.css">
 
  		
-    <link rel="stylesheet" href="styles/style.css"/>
+				 <link rel="stylesheet" href="styles/css/foundation.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 	 	<link rel="preconnect" href="https://fonts.gstatic.com">		
-	 	<link rel="icon" href="ic.png" type="image/x-icon">
+	 	
+     <link rel="icon" type="image/png" sizes="32x32" href="asset/drawable/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="asset/drawable/favicon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/drawable/favicon-180.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="asset/drawable/favicon-192.png">
+				<link rel="apple-touch-icon" sizes="256x256" href="asset/drawable/favicon-256.png">
+				<link rel="apple-touch-icon" sizes="512x512" href="asset/drawable/favicon-512.png">
+
+    <script src="scripts/home.js" defer></script>
 
 </head>
 <body>
-		
-		<main>
-				
-				<div class="grid-container text-center align-center-middle contI" style="height: 100vh;">
-						
-						<h1 class="hi">
-				<b>Ohio</b> Codespace
-		</h1>
-		
+    <!--
+    <div class="align-center-middle loadS" id="loading-screen">
+ 
+        <div class="align-center-middle text-center" style="height: 100vh;">
+  <video class="animated-logo" autoplay muted loop>
+    <source src="asset/load/vid/load2.mp4" type="video/mp4">
+  </video>
+        </div>
+        <div class="cell text-center">
+   <span class="loadText" id="ldT">Please connect to the internet</span>
+        </div>
+        </div>
+    <script>
+    const loadScr = document.querySelector(".loadS");
+    setTimeout( () => {
+        loadScr.style.display = "none";
+    }, 5000);
+  </script>
+		-->
+    
+		<main class="grid-container">
+					    		
+		    <div class="cell align-center-middle text-center brImg">
+		        <span id="introTxt"></span>
+		    </div>
 			
-				
-				<div class="grid-x align-center-middle align-items-center text-center ctBox">
+		     <header class="grid-container">
+        <div class="grid-x grid-margin-x" style="align-items: center">
+		        <div class="cell small-4 medium-2 large-1">
+		            <img src="asset/DCIM/hdIc.png" class="responsive-img lazyload" alt="logo">
+		        </div>	        
+		    											<span class="hi">OHIO</span>     
+		     </div>
+    </header>
+		    
+		   <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-2 serSec">
+		     <div class="cell align-center-middle text-center ser" id="serI">	
+          <button class="serBut" id="serButI" aria-label="Email Us">              
+              <i class="fa fa-globe"></i> 
+                <span>Create a website</span>
+              <span class="overlay-icon">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span>
+          </button>
+					</div>
+		        
+		       <div class="cell align-center-middle text-center ser" id="serII">							 			 
+								     	<button class="align-center-middle text-center" id="serButII" aria-label="Boost your business">							          
+								     	    <i class="fa fa-rocket"></i> 
+                <span>Boost your business</span>
+								     	    <span class="overlay-icon">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span>
+								      </button>
+				 </div>
+		       
+						<div class="cell smll-12 align-center-middle text-center ser">
+												<button class="serBut" id="serButIII" aria-label="Report an issue">
+              <i class="fa fa-bug"></i> 
+            <span>Report An Issue</span>
+												    <span class="overlay-icon">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span>
+          </button>
+						</div>
+						    
+						 <div class="cell align-center-middle text-center ser" id="serIII">
+								       <button class="serBut" id="serButIV" aria-label="Email us">								          
+								          <i class="fa fa-comment"></i> 
+             <span>Give feedback</span>
+								           <span class="overlay-icon">
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+              </span>
+							     </button>
+				 </div>		       
+		    </div>
+		    		        
+		 						    						    
+		</main>
+		
+    <footer class="grid-container">
+        	<div class="grid-x grid-margin-x">
+				<div class="cell align-center-middle align-items-center text-center ctBox">
 						
-						<h2>Contact The Developer</h2>
+						<h2>Contact Ohio</h2>
 						
 						<div class="cell medium-10 ct">
-								 <a href="https://wa.me/+2349079180317" class="contactAppIc" target="_blank" aria-label="Message us on WhatsApp">
+								 <a href="https://wa.me/+2349079180317" class="contactLnk" target="_blank" rel="noopener noreferrer" aria-label="Message us on WhatsApp">
              <i class="fab fa-whatsapp" id="ftWA"></i> <span class="nos">+2349079180317</span>
             </a>
 						</div>
 						
 								<div class="cell medium-10 ct">
-              <a href="mailto:ohioalabi@gmail.com" class="contactAppIc" aria-label="Email us">
+              <a href="mailto:ohioalabi@gmail.com" class="contactLnk" aria-label="Email us" target="_blank" rel="noopener noreferrer">
                 <i class="fas fa-envelope" id="ftEm"></i> <span class="nos">ohioalabi@gmail.com</span>
             </a>
 						</div>
 						
-				</div>
-					<span>
-      <a href="mailto:ohioalabi@gmail.com,ohiocheoyaalabi@gmail.com?subject=Website%20Development%20Inquiry&body=Dear%20Ohio Codespace,%0A%0AI%20am%20interested%20in%20creating%20a%20webpage%20and%20would%20like%20to%20discuss%20the%20details.%20Please%20let%20me%20know%20how%20we%20can%20proceed.%0A%0ABest%20regards,%0A[Your%20Name]" 
-     class="contactAppIc" aria-label="Email Us">
-     Create a website
-</a>
-					</span>
-						<span class="fb">
-								<a href="mailto:ohioalabi@gmail.com,ohiocheoyaalabi@gmail.com?subject=Issue%20Report&body=Dear%20Support%20Team,%0A%0AI%20would%20like%20to%20report%20an%20issue%20with%20[describe%20the%20issue%20here].%0A%0ADetails:%0A-%20Device:%20[Your%20Device]%0A-%20OS%20Version:%20[Your%20OS%20Version]%0A-%20Browser:%20[Your%20Browser]%0A-%20Date%20and%20Time:%20[When%20Issue%20Occurred]%0A%0APlease%20let%20me%20know%20if%20you%20need%20any%20further%20information.%0A%0AThank%20you,%0A[Your%20Name]" 
-        class="contactAppIc" aria-label="Report an issue">
-         Report an Issue
-      </a>
-						 <span class="fb">
-								  <a href="mailto:ohioalabi@gmail.com" class="contactAppIc" aria-label="Email us">
-										Give feedback
-								</a>
-</span>
-				
-						
-						
-				</div>
-		</main>
+				</div>		        
+		    </div>
+    </footer>
 		
 		
-		
-				<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/foundation-sites/dist/js/foundation.min.js"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/2.0.3/motion-ui.min.js"></script>
+			      <script src="scripts/js/vendor/jquery.js"></script>
+        <script src="scripts/js/vendor/what-input.js"></script>
+        <script src="scripts/js/vendor/foundation.min.js"></script>
         <script>
-        $(document).foundation();
-    </script>
+            $(document).foundation();
+        </script>
+
 
 </body>
 </html>
